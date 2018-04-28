@@ -23,5 +23,10 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'  #springのファイルシステムの変更検知方法をpollingからlistenに変更してくれる
 end
 
+#本番環境
+group :production do
+  gem 'pg', '0.20.0'
+end
+
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
