@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial 2週目　Gemfile の説明細かくした。
+# Ruby on Rails Tutorial 2週目です
 
 ## "hello, world!"
 
