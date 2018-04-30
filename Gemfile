@@ -7,7 +7,7 @@ gem 'uglifier',     '3.2.0' #JavaScript のコード軽量化をRubyで簡単に
 gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1' #ページ遷移をAjaxに置き換え、JSやCSSのパース(解析)を省略する事で高速化 JSやjQueryのイベントの起き方に注意
-gem 'jbuilder',     '2.7.0' #jsonのテンプレートエンジン jsonフォーマットをDSLで定義できるようになる。
+gem 'jbuilder',     '2.6.4' #jsonのテンプレートエンジン jsonフォーマットをDSLで定義できるようになる。
 
 #(開発環境とテスト環境のみ対象)
 group :development, :test do
