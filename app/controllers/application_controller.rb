@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   end
 
   def goodbye
-    render html: "夕方20時なのでもうGoodBye!!!!"
+    render html: "夕方20時なのでもうGoodBye!!!!!"
   end
 end
